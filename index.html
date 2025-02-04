@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Rayal Park</title>
+  </head>
+  <body dir="rtl">
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">خانه</a></li>
+          <li><a href="#about">درباره ما</a></li>
+          <li><a href="#service">خدمات</a></li>
+          <li><a href="#explore">جستوجو</a></li>
+          <li><a href="#contact">تماس با ما</a></li>
+        </ul>
+        <button class="btn nav__btn">رزرو کنید</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>ساده - منحصر به فرد - دوستانه</p>
+        <h1>درهتل ما<span> احساس <br> راحتی کنید</span></h1>
+      </div>
+    </header>
+
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">ورود</label>
+            <input type="text" placeholder="تاریخ ورود" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">خروج</label>
+            <input type="text" placeholder="تاریخ خروج"/>
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">مهمان</label>
+            <input type="text" placeholder="نام مهمان" />
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <button class="btn">برسی</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">درباره ی ما</p>
+        <h2 class="section__header">بهترین تعطیلات از اینجا شروع میشود!</h2>
+        <p class="section__description">
+          با تمرکز بر اقامت‌های با کیفیت، تجربیات شخصی‌سازی شده و رزرو بدون دردسر، پلتفرم ما متعهد است که هر مسافر با اطمینان و هیجان به سفر رویایی خود برود.
+        </p>
+        <div class="about__btn">
+          <button class="btn">ادامه مطلب</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <p class="section__subheader">اتاق های ما</p>
+      <h2 class="section__header">بهترین زمان استراحت در اینجا آغاز می‌شود</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>اتاق های لوکس با دید دریا</h4>
+            <p>
+              در لوکس بودن غرق شوید و از چشم‌انداز بی‌نظیر دریا از سوئیت خصوصی خود لذت ببرید.
+            </p>
+            <h5>شروع از  <span>شبی/ 2.990 هزار تومان</span></h5>
+            <button class="btn">اکنون رزور کنید</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>اتاق های خاص با نمای شهر</h4>
+            <p>
+              شکوه شهری و راحتی مدرن را در قلب شهر  های پیشرفته تجربه کنید.
+            </p>
+            <h5>شروع از  <span>شبی/ 1.990 هزار تومان</span></h5>
+            <button class="btn">اکنون رزرو کنید</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>اتاق خانوادگی در باغ</h4>
+            <p>
+                جادار و دلپذیر، مناسب برای ساختن خاطرات عزیز با خانواده.  درای استبل اسب و مزرعه ذرت.
+            </p>
+            <h5>شروع از  <span>شبی/ 3.990 هزار تومان</span></h5>
+            <button class="btn">اکنون رزرو کنید</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">خدمات</p>
+          <h2 class="section__header">فقط برای بهترین بودن تلاش کن.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+             امنیت سطح بالا
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              سرویس اتاق 24 ساعته
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              اتاق کنفرانس
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              پشتیبانی راهنمای گردشگری
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>25+</h4>
+          <p>املاک موجود</p>
+        </div>
+        <div class="banner__card">
+          <h4>350+</h4>
+          <p>رزرو های تکمیل شده</p>
+        </div>
+        <div class="banner__card">
+          <h4>600+</h4>
+          <p>مشتریان راضی</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore" id="explore">
+      <p class="section__subheader">کاوش کنید</p>
+      <h2 class="section__header">چه خدماتی اضافه شده است؟</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">15 بهمن 1403</p>
+          <h4>منوی غذایی ایتالیایی و فرانسوی  <br> هم اکنون در هتل ما</h4>
+          <button class="btn">ادامه</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            دنیایی از راحتی، لوکس و ماجراجویی را کشف کنید و با انتخاب‌های ویژه هتل‌های ما، هر لحظه از سفر خود را واقعاً بی‌نظیر کنید.
+          </p>
+          <button class="btn">اکنون رزرو کنید</button>
+        </div>
+        <div class="footer__col">
+          <h4>لینک های سریع</h4>
+          <ul class="footer__links">
+            <li><a href="#">مقاصد را جستجو کنید</a></li>
+            <li><a href="#">پیشنهادات ویژه و پکیج‌ها</a></li>
+            <li><a href="#">انواع اتاق‌ها و امکانات</a></li>
+            <li><a href="#">نظرات و امتیازات مشتریان</a></li>
+            <li><a href="#">نکات سفر و راهنماها</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>خدمات ما</h4>
+          <ul class="footer__links">
+            <li><a href="#">دربان راهنا</a></li>
+            <li><a href="#">گزینه‌های رزرو انعطاف‌پذیر</a></li>
+            <li><a href="#">انتقال فرودگاهی</a></li>
+            <li><a href="#">سلامت و تفریح</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>تماس با ما</h4>
+          <ul class="footer__links">
+            <li><a href="#">rayalpark@info.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Sina Alizadeh 
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
